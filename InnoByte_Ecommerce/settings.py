@@ -88,11 +88,11 @@ WSGI_APPLICATION = 'InnoByte_Ecommerce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': config('innobyte_ecom_db'),
-        'USER': config('root'),
-        'PASSWORD': config(''),
-        'HOST': config('', default='localhost'),
-        'PORT': config('', default='3306'),
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD', default=''),
+        'HOST': config('DB_HOST', default='localhost'),
+        'PORT': config('DB_PORT', default='3306'),
     }
 }
 
