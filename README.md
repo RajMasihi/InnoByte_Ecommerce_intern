@@ -18,7 +18,7 @@ Git: For version control.
 Installation Guide
 Step 1: Clone the Repository
 
-git clone https://github.com/yourusername/InnoByte_Ecommerce.git
+git clone https://github.com/RajMasihi/InnoByte_Ecommerce.git
 cd InnoByte_Ecommerce
 
 Step 2: Set Up a Virtual Environment
